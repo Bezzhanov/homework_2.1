@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main() {
-	setlocale(LC_ALL, "RU");
+	setlocale(LC_ALL, "ru_RU");
 	enum month 
 	{
 		январь = 1,
