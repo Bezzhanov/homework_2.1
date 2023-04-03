@@ -23,7 +23,7 @@ int main() {
 
 	do {
 	
-		std::cout << "¬ведите номер мес¤ца: ";
+		std::cout << "Введите номер месяца: ";
 		std::cin >> intMonth;
 		months = static_cast<month>(intMonth);
 		switch (months) {
