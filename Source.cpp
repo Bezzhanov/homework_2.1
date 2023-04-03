@@ -1,21 +1,21 @@
-#include <iostream>
+п»ї#include <iostream>
 
 int main() {
-	setlocale(LC_ALL, "RU");
+	setlocale(LC_ALL, "ru_RU");
 	enum month 
 	{
-		Январь = 1,
-		Февраль,
-		Март,
-		Апрель,
-		Май,
-		Июнь,
-		Июль,
-		Август,
-		Сентябрь,
-		Октябрь,
-		Ноябрь,
-		Декабрь
+		РЇРЅРІР°СЂСЊ = 1,
+		Р¤РµРІСЂР°Р»СЊ,
+		РњР°СЂС‚,
+		РђРїСЂРµР»СЊ,
+		РњР°Р№,
+		РСЋРЅСЊ,
+		РСЋР»СЊ,
+		РђРІРіСѓСЃС‚,
+		РЎРµРЅС‚СЏР±СЂСЊ,
+		РћРєС‚СЏР±СЂСЊ,
+		РќРѕСЏР±СЂСЊ,
+		Р”РµРєР°Р±СЂСЊ
 
 	};
 	month months;
@@ -23,51 +23,51 @@ int main() {
 
 	do {
 	
-		std::cout << "Введите номер месяца: ";
+		std::cout << "В¬РІРµРґРёС‚Рµ РЅРѕРјРµСЂ РјРµСЃВ¤С†Р°: ";
 		std::cin >> intMonth;
 		months = static_cast<month>(intMonth);
 		switch (months) {
 		case 1:
-			std::cout << "Январь" << std::endl;
+			std::cout << "РЇРЅРІР°СЂСЊ" << std::endl;
 			break;
 		case 2:
-			std::cout << "Февраль" << std::endl;
+			std::cout << "Р¤РµРІСЂР°Р»СЊ" << std::endl;
 			break;
 		case 3:
-			std::cout << "Март" << std::endl;
+			std::cout << "РњР°СЂС‚" << std::endl;
 			break;
 		case 4:
-			std::cout << "Апрель" << std::endl;
+			std::cout << "РђРїСЂРµР»СЊ" << std::endl;
 			break;
 		case 5:
-			std::cout << "Май" << std::endl;
+			std::cout << "РњР°Р№" << std::endl;
 			break;
 		case 6:
-			std::cout << "Июнь" << std::endl;
+			std::cout << "РСЋРЅСЊ" << std::endl;
 			break;
 		case 7:
-			std::cout << "Июль" << std::endl;
+			std::cout << "РСЋР»СЊ" << std::endl;
 			break;
 		case 8:
-			std::cout << "Август" << std::endl;
+			std::cout << "РђРІРіСѓСЃС‚" << std::endl;
 			break;
 		case 9:
-			std::cout << "Сентябрь" << std::endl;
+			std::cout << "РЎРµРЅС‚СЏР±СЂСЊ" << std::endl;
 			break;
 		case 10:
-			std::cout << "Октябрь" << std::endl;
+			std::cout << "РћРєС‚СЏР±СЂСЊ" << std::endl;
 			break;
 		case 11:
-			std::cout << "Ноябрь" << std::endl;
+			std::cout << "РќРѕСЏР±СЂСЊ" << std::endl;
 			break;
 		case 12:
-			std::cout << "Декабрь" << std::endl;
+			std::cout << "Р”РµРєР°Р±СЂСЊ" << std::endl;
 			break;
 		case 0:
-			std::cout << "До свидания" << std::endl;
+			std::cout << "Р”Рѕ СЃРІРёРґР°РЅРёСЏ" << std::endl;
 			break;
 		default:
-			std::cout << "Неправильный номер!" << std::endl;
+			std::cout << "РќРµРїСЂР°РІРёР»СЊРЅС‹Р№ РЅРѕРјРµСЂ!" << std::endl;
 			break;
 		}
 	
