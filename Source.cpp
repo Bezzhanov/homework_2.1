@@ -16,6 +16,7 @@ int main() {
 		ќкт€брь,
 		Ќо€брь,
 		ƒекабрь
+
 	};
 	month months;
 	int intMonth = 1;
