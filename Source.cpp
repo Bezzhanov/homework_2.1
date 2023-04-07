@@ -27,40 +27,40 @@ int main() {
 		std::cin >> intMonth;
 		months = static_cast<month>(intMonth);
 		switch (months) {
-		case 1:
+		case month::Январь:
 			std::cout << "Январь" << std::endl;
 			break;
-		case 2:
+		case month::Февраль:
 			std::cout << "Февраль" << std::endl;
 			break;
-		case 3:
+		case month::Март:
 			std::cout << "Март" << std::endl;
 			break;
-		case 4:
+		case month::Апрель:
 			std::cout << "Апрель" << std::endl;
 			break;
-		case 5:
+		case month::Май:
 			std::cout << "Май" << std::endl;
 			break;
-		case 6:
+		case month::Июнь:
 			std::cout << "Июнь" << std::endl;
 			break;
-		case 7:
+		case month::Июль:
 			std::cout << "Июль" << std::endl;
 			break;
-		case 8:
+		case month::Август:
 			std::cout << "Август" << std::endl;
 			break;
-		case 9:
+		case month::Сентябрь:
 			std::cout << "Сентябрь" << std::endl;
 			break;
-		case 10:
+		case month::Октябрь:
 			std::cout << "Октябрь" << std::endl;
 			break;
-		case 11:
+		case month::Ноябрь:
 			std::cout << "Ноябрь" << std::endl;
 			break;
-		case 12:
+		case month::Декабрь:
 			std::cout << "Декабрь" << std::endl;
 			break;
 		case 0:
